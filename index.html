@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -305,5 +306,263 @@
 
   <script src="js/config.js"></script>
   <script src="js/script.js"></script>
+=======
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agnes Lorena | Portfólio</title>
+  <meta name="description" content="Portfólio de Agnes Lorena: conteúdo sobre beleza, skincare, fitness, dança, fé e lifestyle.">
+
+  <!-- Open Graph: prévia bonita quando o link é compartilhado -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Agnes Lorena | Portfólio">
+  <meta property="og:description" content="Beleza, skincare, fitness, dança, fé e lifestyle. Conheça o portfólio e contrate.">
+  <meta property="og:image" content="assets/og-capa.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pinyon+Script&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    IMAGENS ESPERADAS (pasta assets/):
+    - agnes-recorte-hero.png     recorte com fundo transparente (hero)
+    - agnes-quem-1.webp, agnes-quem-2.webp     fotos quadradas (polaroids)
+    - agnes-danca-recorte.png    recorte da dança (hobbies)
+    - agnes-sentada-recorte.png  recorte sentada (estilo de conteúdo)
+    - agnes-publico-recorte.png  recorte de perfil (público-alvo)
+    - agnes-engajamento.webp     foto quadrada colorida
+    - agnes-contrate-1/2/3.webp  três fotos quadradas
+    - og-capa.jpg                1200x630 para compartilhamento
+    Enquanto não existirem, aparece um bloco cinza no lugar.
+  -->
+</head>
+
+<body>
+
+  <!-- Borboleta desenhada em SVG (reaproveitada com <use>) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="borboleta" viewBox="0 0 100 80">
+      <g fill="#dcdad3" stroke="#3a3a42" stroke-width="1.6" stroke-linejoin="round">
+        <g id="asa">
+          <path d="M50 38 C38 8 8 2 6 22 C5 34 22 44 50 42 Z"/>
+          <path d="M50 42 C30 46 14 62 26 72 C37 79 47 62 50 46 Z"/>
+          <path d="M40 30 C30 20 20 18 14 22 M38 40 C28 40 20 38 14 32" fill="none" stroke-width="1"/>
+        </g>
+        <use href="#asa" transform="translate(100 0) scale(-1 1)"/>
+        <ellipse cx="50" cy="42" rx="2.6" ry="16" fill="#3a3a42"/>
+        <path d="M49 27 C46 16 42 12 38 10 M51 27 C54 16 58 12 62 10" fill="none"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <main>
+
+    <!-- ======================= HERO ======================= -->
+    <header class="hero" id="inicio">
+      <img class="hero__recorte" src="assets/agnes-recorte-hero.png"
+           alt="Agnes Lorena em preto e branco, com a mão no peito">
+
+      <div class="hero__texto">
+        <ul class="contato">
+          <li>
+            <span>E-mail:</span>
+            <a href="mailto:contatoagneslorena@gmail.com">contatoagneslorena@gmail.com</a>
+          </li>
+          <li>
+            <span>Tel:</span>
+            <a href="tel:+5581995697189">(81) 99569-7189</a>
+          </li>
+        </ul>
+
+        <h1 class="titulo-gigante">Agnes Lorena</h1>
+        <p class="script script--hero">portfólio</p>
+      </div>
+
+      <svg class="borboleta" aria-hidden="true"><use href="#borboleta"/></svg>
+      <svg class="borboleta" aria-hidden="true"><use href="#borboleta"/></svg>
+    </header>
+
+    <!-- ======================= QUEM É ======================= -->
+    <section class="secao" id="quem-e">
+      <div class="container quem">
+        <div class="quem__titulo">
+          <h2 class="titulo-secao">
+            Quem
+            <svg class="borboleta" aria-hidden="true"><use href="#borboleta"/></svg>
+            <br>é Agnes?
+          </h2>
+          <p class="script script--assinatura">Agnes Lorena</p>
+        </div>
+
+        <div class="quem__fotos">
+          <figure class="polaroid">
+            <div class="polaroid__foto"><img src="assets/agnes-quem-1.webp" alt="Agnes de blusa listrada, sentada" loading="lazy"></div>
+          </figure>
+          <figure class="polaroid">
+            <div class="polaroid__foto"><img src="assets/agnes-quem-2.webp" alt="Agnes de olhos fechados, com a mão no peito" loading="lazy"></div>
+          </figure>
+        </div>
+
+        <div class="quem__texto">
+          <p class="texto-mono">
+            Autêntica, cheia de personalidade e apaixonada por compartilhar a vida real de
+            um jeito leve e inspirador. Entre beleza, rotina, fé e sonhos, mostro que é
+            possível ser gentil, vaidosa, inteligente e determinada, sem abrir mão de
+            quem você é. ✨
+          </p>
+        </div>
+      </div>
+
+      <div class="jornal" aria-hidden="true"></div>
+    </section>
+
+    <!-- ======================= HOBBIES ======================= -->
+    <section class="secao hobbies" id="hobbies">
+      <svg class="borboleta" aria-hidden="true"><use href="#borboleta"/></svg>
+      <svg class="borboleta" aria-hidden="true"><use href="#borboleta"/></svg>
+
+      <div class="container hobbies__grid">
+        <h2 class="titulo-secao hobbies__titulo">Hobbies &amp; interesses</h2>
+
+        <div class="hobbies__texto">
+          <p class="texto-serif">
+            Minha rotina é marcada por experiências que gosto de viver e compartilhar:
+            skincare, academia, corrida, dança ministerial, culinária e, claro, descobrir
+            e experimentar novos sabores.
+          </p>
+          <p class="texto-serif">
+            Gosto de conhecer lugares, produtos e experiências que agreguem à minha rotina
+            e possam inspirar quem me acompanha.
+          </p>
+        </div>
+
+        <img class="recorte recorte--cor" src="assets/agnes-danca-recorte.png"
+             alt="Agnes dançando, com uma perna levantada e os braços abertos" loading="lazy">
+      </div>
+    </section>
+
+    <!-- ======================= ESTILO DE CONTEÚDO ======================= -->
+    <section class="secao conteudo" id="conteudo">
+      <div class="container conteudo__grid">
+        <img class="recorte" src="assets/agnes-sentada-recorte.png"
+             alt="Agnes sentada com a mão na cabeça" loading="lazy">
+
+        <h2 class="titulo-secao">Estilo de conteúdo</h2>
+
+        <!-- Texto em arco (só no desktop). O h2 acima fica como texto real para leitores de tela. -->
+        <svg class="conteudo__arco" viewBox="0 0 340 500" aria-hidden="true">
+          <path id="arco" d="M 120 10 A 260 260 0 0 1 120 490" fill="none"/>
+          <text>
+            <textPath href="#arco" startOffset="50%" text-anchor="middle">ESTILO DE CONTEÚDO</textPath>
+          </text>
+        </svg>
+
+        <ul class="conteudo__lista">
+          <li>Beleza &amp; maquiagem</li>
+          <li>Skincare &amp; autocuidado</li>
+          <li>Fitness &amp; bem-estar</li>
+          <li>Dança &amp; fé</li>
+          <li>Lifestyle &amp; experiências</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======================= PÚBLICO-ALVO ======================= -->
+    <section class="secao publico" id="publico">
+      <svg class="borboleta" aria-hidden="true"><use href="#borboleta"/></svg>
+
+      <div class="container publico__grid">
+        <img class="recorte" src="assets/agnes-publico-recorte.png"
+             alt="Agnes de perfil, de olhos fechados" loading="lazy">
+
+        <div>
+          <h2 class="titulo-secao">Público-alvo</h2>
+          <p class="texto-serif" style="margin-top:1.5rem">
+            Meu conteúdo conversa principalmente com mulheres jovens e adultas, entre
+            16 e 35 anos, interessadas em beleza, autocuidado, bem-estar, atividade
+            física, fé e lifestyle.
+          </p>
+          <p class="texto-serif">
+            É um público que valoriza autenticidade, identificação e experiências reais,
+            buscando conteúdos leves e inspiradores que possam fazer parte da sua rotina.
+            A conexão acontece por meio de uma comunicação próxima, feminina e espontânea,
+            criando espaço para marcas que compartilham desses mesmos valores.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= ENGAJAMENTO ======================= -->
+    <section class="secao engajamento" id="engajamento">
+      <div class="container engajamento__grid">
+        <div>
+          <h2 class="titulo-secao">Engajamento</h2>
+          <figure class="polaroid polaroid--cor" style="--giro:-2deg; margin-top:2rem; max-width:360px">
+            <div class="polaroid__foto"><img src="assets/agnes-engajamento.webp" alt="Agnes de blusa listrada, olhando para o lado" loading="lazy"></div>
+          </figure>
+        </div>
+
+        <!-- Números digitados à mão: atualize quando tiver métricas novas. -->
+        <div class="paineis">
+          <section class="painel" aria-labelledby="p-perfil">
+            <h3 class="painel__titulo" id="p-perfil">@agnesllorena</h3>
+            <dl>
+              <div class="painel__linha"><dt>Posts</dt><dd>49</dd></div>
+              <div class="painel__linha"><dt>Seguidores</dt><dd>2.376</dd></div>
+              <div class="painel__linha"><dt>Seguindo</dt><dd>947</dd></div>
+            </dl>
+          </section>
+
+          <section class="painel" aria-labelledby="p-insights">
+            <h3 class="painel__titulo" id="p-insights">Insights, todos os conteúdos</h3>
+            <dl>
+              <div class="painel__linha"><dt>Visualizações</dt><dd>140.161</dd></div>
+              <div class="painel__linha"><dt>Seguidores líquidos</dt><dd class="sobe">+60</dd></div>
+              <div class="painel__linha"><dt>Interações</dt><dd>3.850</dd></div>
+            </dl>
+            <p class="painel__nota">77% seguidores · 23% não seguidores</p>
+          </section>
+
+          <section class="painel painel--largo" aria-labelledby="p-30">
+            <h3 class="painel__titulo" id="p-30">Últimos 30 dias</h3>
+            <dl>
+              <div class="painel__linha"><dt>Visualizações</dt><dd class="sobe">↗ 1,8 mi</dd></div>
+              <div class="painel__linha"><dt>Interações</dt><dd class="sobe">↗ 2,8 mil</dd></div>
+              <div class="painel__linha"><dt>Novos seguidores</dt><dd class="sobe">↗ 319</dd></div>
+            </dl>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= CONTRATE ======================= -->
+    <section class="secao contrate" id="contrate">
+      <div class="container">
+        <h2 class="titulo-secao">Contrate</h2>
+        <p class="contrate__sub">e melhore seu marketing!</p>
+
+        <div class="contrate__fotos">
+          <figure class="polaroid"><div class="polaroid__foto"><img src="assets/agnes-contrate-1.webp" alt="Agnes em preto e branco, olhando por cima do ombro" loading="lazy"></div></figure>
+          <figure class="polaroid"><div class="polaroid__foto"><img src="assets/agnes-contrate-2.webp" alt="Agnes sentada, com a mão no cabelo" loading="lazy"></div></figure>
+          <figure class="polaroid"><div class="polaroid__foto"><img src="assets/agnes-contrate-3.webp" alt="Agnes de olhos fechados, com a mão no peito" loading="lazy"></div></figure>
+        </div>
+
+        <div class="contrate__acoes">
+          <a class="botao" href="https://wa.me/5581995697189?text=Ol%C3%A1%20Agnes!%20Vi%20seu%20portf%C3%B3lio%20e%20quero%20conversar." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="botao botao--vazado" href="mailto:contatoagneslorena@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">Enviar e-mail</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>© 2026 Agnes Lorena</p>
+  </footer>
+
+>>>>>>> a0b11d102d4469ce60151d4a8e7b5d6a684db3c6
 </body>
 </html>
